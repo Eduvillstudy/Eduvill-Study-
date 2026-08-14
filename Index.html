@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EDUVILL STUDY | Bihar Competitive Exam Preparation</title>
+<meta name="description" content="EDUVILL STUDY — गांव से दफ्तर तक। BSSC, Bihar Daroga, Bihar Police और Railway की तैयारी के लिए GK, GS, Current Affairs, PYQ, MCQ और Mock Tests.">
+<style>
+:root{
+  --navy:#071b3a; --blue:#0d4ea6; --orange:#ff8a1f; --light:#f5f8fc;
+  --text:#142033; --muted:#667085; --white:#fff; --border:#e5eaf2;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:#fff;line-height:1.55}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:900;font-size:20px;color:var(--navy)}
+.logo-mark{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--navy),var(--blue));display:grid;place-items:center;color:#fff;font-weight:900;border:3px solid var(--orange)}
+nav{display:flex;gap:24px;font-size:14px;font-weight:700}
+nav a:hover{color:var(--orange)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:10px;font-weight:800;border:1px solid transparent;cursor:pointer}
+.btn-primary{background:var(--orange);color:#fff}.btn-dark{background:var(--navy);color:#fff}
+.hero{background:linear-gradient(135deg,#071b3a 0%,#0d4ea6 70%,#155fc1 100%);color:#fff;padding:82px 0 72px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
+.eyebrow{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:7px 12px;border-radius:999px;font-size:13px;font-weight:800;margin-bottom:18px}
+h1{font-size:clamp(40px,6vw,70px);line-height:1.03;letter-spacing:-2px}
+.hero h1 span{color:#ffb45e}
+.hero p{font-size:18px;color:#dbe8ff;max-width:650px;margin:22px 0 28px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);border-radius:24px;padding:26px;box-shadow:0 20px 60px rgba(0,0,0,.2)}
+.hero-card h3{font-size:20px;margin-bottom:18px}
+.exam-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.exam{padding:17px;border-radius:14px;background:#fff;color:var(--navy);font-weight:900}
+.exam small{display:block;color:var(--muted);font-weight:600;margin-top:3px}
+section{padding:76px 0}
+.section-head{text-align:center;max-width:700px;margin:0 auto 38px}
+.section-head h2{font-size:36px;line-height:1.15;color:var(--navy)}
+.section-head p{color:var(--muted);margin-top:10px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{border:1px solid var(--border);border-radius:18px;padding:24px;background:#fff;transition:.2s;box-shadow:0 8px 25px rgba(16,24,40,.04)}
+.card:hover{transform:translateY(-4px);box-shadow:0 15px 35px rgba(16,24,40,.1)}
+.icon{width:46px;height:46px;border-radius:13px;background:#fff1e5;color:var(--orange);display:grid;place-items:center;font-weight:900;margin-bottom:15px}
+.card h3{color:var(--navy);margin-bottom:7px}.card p{font-size:14px;color:var(--muted)}
+.exam-section{background:var(--light)}
+.exam-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.exam-big{background:#fff;border-radius:18px;padding:26px;border:1px solid var(--border)}
+.exam-big strong{font-size:23px;color:var(--navy);display:block}
+.exam-big p{font-size:14px;color:var(--muted);margin:8px 0 16px}
+.link{color:var(--blue);font-weight:800;font-size:14px}
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}
+.panel{border-radius:24px;padding:34px;background:var(--navy);color:#fff}
+.panel h3{font-size:27px;margin-bottom:12px}.panel p{color:#cbd8ee}
+.checks{margin-top:20px;display:grid;gap:12px}
+.check{display:flex;gap:10px;align-items:flex-start}.check b{color:#ffb45e}
+.cta{background:linear-gradient(135deg,var(--orange),#f36b21);color:#fff;text-align:center;border-radius:24px;padding:55px 25px}
+.cta h2{font-size:38px}.cta p{margin:10px auto 22px;max-width:650px;color:#fff3e8}
+footer{background:#06152e;color:#cbd8ee;padding:45px 0 25px}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:35px}
+footer h3,footer h4{color:#fff;margin-bottom:12px} footer p,footer li{font-size:14px}
+footer ul{list-style:none;display:grid;gap:8px}
+.copy{border-top:1px solid rgba(255,255,255,.12);margin-top:30px;padding-top:20px;text-align:center;font-size:13px}
+.mobile-menu{display:none}
+@media(max-width:850px){
+ nav{display:none}.mobile-menu{display:block;background:none;border:0;font-size:25px}
+ .hero-grid,.feature{grid-template-columns:1fr}
+ .cards,.exam-cards{grid-template-columns:1fr 1fr}
+ .hero{padding:60px 0}.hero-card{max-width:600px;margin:auto}
+}
+@media(max-width:520px){
+ .cards,.exam-cards{grid-template-columns:1fr}
+ h1{font-size:44px}.section-head h2{font-size:29px}
+ .nav{height:64px}.logo{font-size:17px}
+ .hero p{font-size:16px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="logo" href="#"><span class="logo-mark">E</span> EDUVILL STUDY</a>
+    <nav>
+      <a href="#home">Home</a><a href="#exams">Exams</a><a href="#study">Study Material</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="mobile-menu" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">BIHAR COMPETITIVE EXAM PREPARATION</span>
+      <h1>गांव से <span>दफ्तर</span> तक।</h1>
+      <p>EDUVILL STUDY के साथ BSSC, Bihar Daroga, Bihar Police और Railway की तैयारी करें — सही रणनीति, मजबूत बेसिक्स और लगातार अभ्यास के साथ।</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#exams">अपनी परीक्षा चुनें</a>
+        <a class="btn" style="background:#fff;color:#071b3a" href="#study">Study Material देखें</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>आपकी तैयारी, एक जगह</h3>
+      <div class="exam-grid">
+        <div class="exam">BSSC<small>MCQ • PYQ • Strategy</small></div>
+        <div class="exam">Bihar Daroga<small>GS • Current Affairs</small></div>
+        <div class="exam">Bihar Police<small>Practice • Mock Test</small></div>
+        <div class="exam">Railway<small>GK • GS • PYQ</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="study">
+  <div class="container">
+    <div class="section-head">
+      <h2>एक जगह पूरी तैयारी</h2>
+      <p>परीक्षा की जरूरत के हिसाब से structured और practical study resources.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="icon">GK</div><h3>Bihar GK</h3><p>बिहार के इतिहास, भूगोल, अर्थव्यवस्था और महत्वपूर्ण तथ्यों की परीक्षा-उपयोगी तैयारी।</p></div>
+      <div class="card"><div class="icon">GS</div><h3>General Studies</h3><p>History, Polity, Geography, Science और अन्य महत्वपूर्ण topics का revision.</p></div>
+      <div class="card"><div class="icon">CA</div><h3>Current Affairs</h3><p>Daily और monthly current affairs को MCQ और revision format में पढ़ें।</p></div>
+      <div class="card"><div class="icon">PYQ</div><h3>PYQ + MCQ</h3><p>Previous year questions और topic-wise practice से accuracy मजबूत करें।</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="exam-section" id="exams">
+  <div class="container">
+    <div class="section-head">
+      <h2>अपनी परीक्षा चुनें</h2>
+      <p>जिस exam की तैयारी कर रहे हैं, उसी के हिसाब से resources और strategy.</p>
+    </div>
+    <div class="exam-cards">
+      <div class="exam-big"><strong>BSSC</strong><p>GK, GS, Current Affairs, PYQ और mock practice.</p><a class="link" href="#">BSSC तैयारी →</a></div>
+      <div class="exam-big"><strong>BIHAR DAROGA</strong><p>Prelims-focused GS, Bihar GK और current affairs.</p><a class="link" href="#">Daroga तैयारी →</a></div>
+      <div class="exam-big"><strong>BIHAR POLICE</strong><p>Practice sets, important facts और regular revision.</p><a class="link" href="#">Police तैयारी →</a></div>
+      <div class="exam-big"><strong>RAILWAY</strong><p>GK, GS, PYQ और exam-oriented practice resources.</p><a class="link" href="#">Railway तैयारी →</a></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container feature">
+    <div class="panel">
+      <h3>सही रणनीति • सही तैयारी</h3>
+      <p>हमारा उद्देश्य सिर्फ content देना नहीं, बल्कि aspirants को consistent और exam-focused preparation में मदद करना है।</p>
+      <div class="checks">
+        <div class="check"><b>✓</b><span>Concept-based learning</span></div>
+        <div class="check"><b>✓</b><span>Daily MCQ practice</span></div>
+        <div class="check"><b>✓</b><span>PYQ और mock-test analysis</span></div>
+        <div class="check"><b>✓</b><span>Current affairs revision</span></div>
+      </div>
+    </div>
+    <div class="card" style="padding:34px">
+      <h3 style="font-size:28px">EDUVILL STUDY क्यों?</h3>
+      <p style="margin-top:12px">Bihar और अन्य competitive exams के aspirants के लिए simple, focused और useful preparation resources.</p>
+      <div class="checks" style="color:var(--text)">
+        <div class="check"><b>01</b><span><strong>Exam-focused</strong><br>सिर्फ relevant preparation.</span></div>
+        <div class="check"><b>02</b><span><strong>Practice-driven</strong><br>MCQ, PYQ और mock tests.</span></div>
+        <div class="check"><b>03</b><span><strong>Regular revision</strong><br>Current affairs और important facts.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="cta">
+      <h2>सपना नहीं, अब तैयारी पक्की।</h2>
+      <p>EDUVILL STUDY से जुड़ें और अपनी competitive exam preparation को एक clear direction दें।</p>
+      <div class="actions" style="justify-content:center">
+        <a class="btn btn-dark" href="#">YouTube Channel</a>
+        <a class="btn" style="background:#fff;color:#071b3a" href="#">WhatsApp Channel</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer id="contact">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h3>EDUVILL STUDY</h3><p>गांव से दफ्तर तक — Bihar competitive exam preparation के लिए आपका digital study partner.</p></div>
+      <div><h4>Exams</h4><ul><li>BSSC</li><li>Bihar Daroga</li><li>Bihar Police</li><li>Railway</li></ul></div>
+      <div><h4>Resources</h4><ul><li>GK / GS</li><li>Current Affairs</li><li>PYQ</li><li>MCQ & Mock Tests</li></ul></div>
+    </div>
+    <div class="copy">© 2026 EDUVILL STUDY. All rights reserved.</div>
+  </div>
+</footer>
+</body>
+</html>
